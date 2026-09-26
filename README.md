@@ -34,9 +34,20 @@ text-similarity-detector/
 └── statement.md
 ```
 
+
 ## Installation & Setup
 
 1. Ensure Python 3 is installed on your system. You can check by opening a terminal and running: python --version
 2. Clone this repository, or download it as a ZIP and extract it: git clone https://github.com/<your-username>/text-similarity-detector.git
 3. Open the project folder in VS Code (or any code editor of your choice).
 4. No additional packages need to be installed — the project uses only Python's standard library.
+
+
+## How to Run
+
+1. Open a terminal in VS Code (Terminal → New Terminal), or navigate to the project folder in your system terminal.
+2. Run the main script: python "Text Similarity Detector.py"
+3. Follow the on-screen prompts:
+   - Enter the number of documents you wish to compare.
+   - Enter the text of each document, one at a time.
+4. The program will display the most similar document pair, followed by a full comparison table for all document pairs.
