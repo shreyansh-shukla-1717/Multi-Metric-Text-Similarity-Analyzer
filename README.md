@@ -51,3 +51,14 @@ text-similarity-detector/
    - Enter the number of documents you wish to compare.
    - Enter the text of each document, one at a time.
 4. The program will display the most similar document pair, followed by a full comparison table for all document pairs.
+
+
+## Testing Instructions
+
+To verify the program works as expected, try the following test cases:
+
+1. **Identical documents** — enter the same text twice; all three similarity scores should report 100%, and the top match should identify this pair.
+2. **Completely unrelated documents** — enter two documents with no shared vocabulary; all scores should report 0%.
+3. **Same words, different order** — enter two documents using identical vocabulary but in a different sequence (e.g., "not bad very good" vs. "very bad not good"); word-level Jaccard should remain high while Bigram Jaccard should drop significantly, demonstrating that phrase-order is being captured.
+4. **Invalid input handling** — enter a non-numeric value (e.g., "five") when prompted for the number of documents, and confirm the program re-prompts rather than crashing. Similarly, try submitting an empty document to confirm it is rejected.
+5. **Multiple documents (3 or more)** — confirm the program correctly generates and displays all unique pairwise comparisons without repeating a pair or comparing a document to itself.
