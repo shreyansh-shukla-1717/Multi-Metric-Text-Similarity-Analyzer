@@ -22,7 +22,7 @@ The project is built entirely in core Python, without relying on external NLP li
 
 ## Project Structure
 
-```
+
 text-similarity-detector/
 ├── main.py                    # Entry point — orchestrates the full comparison workflow
 ├── processing.py              # Document count validation, input collection, cleaning, tokenization
@@ -32,7 +32,7 @@ text-similarity-detector/
 ├── Interpret_Similarity.py    # Converts a numeric similarity score into a plain-language verdict
 ├── README.md
 └── statement.md
-```
+
 
 
 ## Installation & Setup
@@ -63,6 +63,5 @@ To verify the program works as expected, try the following test cases:
 4. **Invalid input handling** — enter a non-numeric value (e.g., "five") when prompted for the number of documents, and confirm the program re-prompts rather than crashing. Similarly, try submitting an empty document to confirm it is rejected.
 5. **Multiple documents (3 or more)** — confirm the program correctly generates and displays all unique pairwise comparisons without repeating a pair or comparing a document to itself.
 
-## Screenshots
 ## Author
 SHREYANSH SHUKLA - 26BAI10862
