@@ -12,5 +12,7 @@ The system supports comparison of an arbitrary number of documents, computing si
 
 Certain advanced natural language processing techniques have been deliberately excluded from the current implementation, in keeping with the project's academic scope and its foundation in core programming constructs rather than specialized libraries. These excluded techniques include:
 - **TF-IDF (Term Frequency–Inverse Document Frequency) weighting**, which would require a broader corpus of reference documents to compute meaningful term-rarity statistics.
+
+These are identified as prospective future enhancements rather than current limitations of oversight, reflecting a deliberate decision to prioritize a transparent, defensible implementation within the bounds of the current curriculum.
 - **Stop-word filtering**, which would refine similarity scores by excluding high-frequency grammatical words.
 - **Edit-distance (Levenshtein) computation**, which would enable detection of near-identical words affected by typographical variation.
