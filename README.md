@@ -35,7 +35,7 @@ The project is built entirely in core Python, without relying on external NLP li
 ## Installation & Setup
 
 1. Ensure Python 3 is installed on your system. You can check by opening a terminal and running: python --version
-2. Clone this repository, or download it as a ZIP and extract it: git clone https://github.com/<your-username>/text-similarity-detector.git
+2. Clone this repository, or download it as a ZIP and extract it: git clone https://github.com/shreyansh_shukla_1717/text-similarity-detector.git
 3. Open the project folder in VS Code (or any code editor of your choice).
 4. No additional packages need to be installed — the project uses only Python's standard library.
 
