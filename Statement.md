@@ -17,3 +17,8 @@ Certain advanced natural language processing techniques have been deliberately e
 
 
 These are identified as prospective future enhancements rather than current limitations of oversight, reflecting a deliberate decision to prioritize a transparent, defensible implementation within the bounds of the current curriculum.
+
+# Target Users
+
+- **Students**, who require a preliminary, self-directed means of assessing the originality of their own written work — such as assignments, reports, or essays — prior to formal submission, without needing access to institutional or commercial plagiarism-detection software.
+- **Instructors and Faculty Members**, who require a lightweight, transparent, first-pass mechanism for screening similarity across a limited set of student submissions, particularly in contexts where formal institutional plagiarism-detection infrastructure may be unavailable, inaccessible, or unnecessary for the scale of the task at hand.
