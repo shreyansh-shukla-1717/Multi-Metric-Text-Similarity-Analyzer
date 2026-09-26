@@ -22,7 +22,7 @@ The project is built entirely in core Python, without relying on external NLP li
 
 ## Project Structure
 
-
+```
 text-similarity-detector/
 ├── main.py                    # Entry point — orchestrates the full comparison workflow
 ├── processing.py              # Document count validation, input collection, cleaning, tokenization
@@ -32,3 +32,4 @@ text-similarity-detector/
 ├── Interpret_Similarity.py    # Converts a numeric similarity score into a plain-language verdict
 ├── README.md
 └── statement.md
+```
