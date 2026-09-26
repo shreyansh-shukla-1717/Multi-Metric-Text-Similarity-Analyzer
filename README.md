@@ -14,3 +14,7 @@ The project is built entirely in core Python, without relying on external NLP li
 - **Tabular results summary** — displays all pairwise comparison results in a clean, aligned table.
 - **Input validation** — rejects and re-prompts for empty documents and non-numeric document counts, preventing crashes on invalid input.
 
+## Technologies / Tools Used
+
+- **Python 3** (no external libraries or packages required)
+- Core Python constructs used: lists, sets, dictionaries, tuples, functions, loops, conditional statements, string manipulation
