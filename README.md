@@ -17,4 +17,18 @@ The project is built entirely in core Python, without relying on external NLP li
 ## Technologies / Tools Used
 
 - **Python 3** (no external libraries or packages required)
+- **VS Code** — used as the development environment
 - Core Python constructs used: lists, sets, dictionaries, tuples, functions, loops, conditional statements, string manipulation
+
+## Project Structure
+
+
+text-similarity-detector/
+├── main.py                    # Entry point — orchestrates the full comparison workflow
+├── processing.py              # Document count validation, input collection, cleaning, tokenization
+├── bigram.py                  # Generates consecutive word-pair (bigram) tuples
+├── Jaccard_Similarity.py      # Jaccard similarity calculation (word-level and bigram-level)
+├── Cosine_Similarity.py       # Cosine similarity calculation using word-frequency vectors
+├── Interpret_Similarity.py    # Converts a numeric similarity score into a plain-language verdict
+├── README.md
+└── statement.md
