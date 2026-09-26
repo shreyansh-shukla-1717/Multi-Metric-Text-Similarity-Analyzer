@@ -22,3 +22,15 @@ These are identified as prospective future enhancements rather than current limi
 
 - **Students**, who require a preliminary, self-directed means of assessing the originality of their own written work — such as assignments, reports, or essays — prior to formal submission, without needing access to institutional or commercial plagiarism-detection software.
 - **Instructors and Faculty Members**, who require a lightweight, transparent, first-pass mechanism for screening similarity across a limited set of student submissions, particularly in contexts where formal institutional plagiarism-detection infrastructure may be unavailable, inaccessible, or unnecessary for the scale of the task at hand.
+
+# High-Level Features
+
+- **Multi-document input handling** — accepts and processes an arbitrary, user-specified number of text documents for comparison, with validation to ensure the specified count is a valid whole number.
+- **Comprehensive pairwise comparison** — systematically compares every unique pair of submitted documents, avoiding redundant comparisons and self-comparisons through structured iteration.
+- **Three-metric similarity analysis:**
+  - *Jaccard Similarity*, quantifying the proportion of shared vocabulary between two documents.
+  - *Cosine Similarity*, quantifying similarity based on word-frequency distributions, thereby accounting for repetition and relative emphasis.
+  - *Bigram Jaccard Similarity*, quantifying the overlap of consecutive word-pairs, thereby capturing structural and phrasing similarity that single-word metrics cannot detect.
+- **Automated top-match identification** — determines and reports the single most similar document pair, ranked by Cosine similarity, accompanied by a plain-language interpretation of the resulting score.
+- **Structured results presentation** — displays a complete, formatted tabular summary of all pairwise comparison results, enabling efficient review across multiple document pairs.
+- **Robust input validation** — incorporates safeguards against empty document submissions, non-numeric document counts, and degenerate mathematical cases (such as division by zero in similarity computation), ensuring reliable program execution under a range of user input conditions.
