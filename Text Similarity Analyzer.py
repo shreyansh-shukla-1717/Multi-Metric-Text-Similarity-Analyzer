@@ -1,4 +1,4 @@
-# Text Similarity Detector
+# Text Similarity Analyzer
 import Jaccard_Similarity as js
 import Cosine_Similarity as cs
 import Interpret_Similarity as ins
