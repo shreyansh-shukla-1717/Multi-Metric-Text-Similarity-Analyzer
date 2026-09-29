@@ -22,7 +22,7 @@ The project is built entirely in core Python, without relying on external NLP li
 
 ## Project Structure
 
-- **Text Similarity Detector.py** — Entry point; orchestrates the full comparison workflow
+- **Text Similarity Analyzer.py** — Entry point; orchestrates the full comparison workflow
 - **processing.py** — Document count validation, input collection, cleaning, and tokenization
 - **bigram.py** — Generates consecutive word-pair (bigram) tuples
 - **Jaccard_Similarity.py** — Jaccard similarity calculation (word-level and bigram-level)
@@ -43,7 +43,7 @@ The project is built entirely in core Python, without relying on external NLP li
 ## How to Run
 
 1. Open a terminal in VS Code (Terminal → New Terminal), or navigate to the project folder in your system terminal.
-2. Run the main script: python "Text Similarity Detector.py"
+2. Run the main script: python "Text Similarity Analyzer.py"
 3. Follow the on-screen prompts:
    - Enter the number of documents you wish to compare.
    - Enter the text of each document, one at a time.
